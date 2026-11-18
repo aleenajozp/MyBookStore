@@ -1,3 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
 .card {
   padding: 24px;
   box-shadow: 0 20px 80px rgb(214, 133, 11);
@@ -15,4 +37,3 @@
   border-radius: 10px;
   text-align: center;
 }
-
